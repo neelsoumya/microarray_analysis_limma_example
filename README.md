@@ -9,11 +9,13 @@ Usage:
 
 Installation:
 
-# try http:// if https:// URLs are not supported
+try http:// if https:// URLs are not supported
+
 source("https://bioconductor.org/biocLite.R")
 biocLite("affy")
  
-# try http:// if https:// URLs are not supported
+try http:// if https:// URLs are not supported
+
 source("https://bioconductor.org/biocLite.R")
 biocLite("hgu95av2cdf")
 
