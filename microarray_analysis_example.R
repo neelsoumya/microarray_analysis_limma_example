@@ -16,6 +16,11 @@
 # source("https://bioconductor.org/biocLite.R")
 # biocLite("hgu95av2cdf")
 #
+# if (!requireNamespace("BiocManager", quietly = TRUE))
+#    install.packages("BiocManager")
+#
+# BiocManager::install("limma")
+#
 # Download data from https://www.bioconductor.org/help/course-materials/2005/BioC2005/labs/lab01/Data/estrogen.zip
 #   We assume that the data are unzipped and saved in the folder "~/Downloads/estrogen"
 #
